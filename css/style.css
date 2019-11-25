@@ -1,0 +1,195 @@
+@media screen and (min-width: 992px){
+
+   .desktop-nav{
+      display: flex;
+      justify-content: flex-end;
+   }
+   .custom-jumbotron{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 0px !important;
+   }
+
+   .jumbotron{
+      padding: 0px !important;
+   }
+   .overlay{
+      background: rgba(0,0,0,0.81);
+      background: -moz-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.81)), color-stop(0%, rgba(28,27,28,0.81)), color-stop(29%, rgba(0,0,0,0.76)), color-stop(45%, rgba(0,0,0,0.73)), color-stop(68%, rgba(0,0,0,0.69)), color-stop(100%, rgba(0,0,0,0.63)));
+      background: -webkit-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+      background: -o-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+      background: -ms-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+      background: linear-gradient(to right, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+   }
+   .jumbotron-overlay{
+      padding-top: 3.5rem !important;
+      padding-bottom: 3.5rem !important;
+      margin-top: 5rem;
+   }
+   .jumbotron .overlay{
+      padding: 2rem 3.5rem;
+   }
+   .wrapper{
+      width: 50%;
+   }
+
+   h3.jumbo-title{
+      position: relative;
+   }
+
+   h3.jumbo-title.text-white:after {
+      content: "";
+      height: 2px;
+      width: 0%;
+      background: #f9f9f9;
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      right: 0;
+      transition: .5s all;
+   }
+
+   h3.jumbo-title.text-white:hover::after{
+      width: 60%;
+      background: orangered;
+   }
+
+   p.jumbo-text{
+      font-size: 1rem;
+   }
+
+   .jumbotron-naration h4,
+   .jumbotron-naration p{
+      color: white;
+   }
+
+   .jumbotron-naration .jumbotron-naration-row{
+      margin-bottom: 0xp !important;
+   }
+
+   .card-img{
+      padding: 0px;
+   }
+
+   .card{
+      border: 0px;
+   }
+
+   .text-box{
+      width: 80%;
+   }
+
+   .img-1{
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; 
+      height: 300px;     
+   }
+
+}
+
+
+
+@media screen and (max-width: 991px){
+   .wrapper{
+      width: 80% !important;
+   }
+   .jumbotron-overlay{
+      justify-content: center !important;
+      display: flex;
+   }
+   .wrapper button {
+      display: block;
+      margin: 0 auto;
+      margin-top: .5rem;
+  }
+}
+
+.jumbotron{
+   padding: 0px !important;
+}
+.overlay{
+   background: rgba(0,0,0,0.81);
+   background: -moz-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+   background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.81)), color-stop(0%, rgba(28,27,28,0.81)), color-stop(29%, rgba(0,0,0,0.76)), color-stop(45%, rgba(0,0,0,0.73)), color-stop(68%, rgba(0,0,0,0.69)), color-stop(100%, rgba(0,0,0,0.63)));
+   background: -webkit-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+   background: -o-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+   background: -ms-linear-gradient(left, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+   background: linear-gradient(to right, rgba(0,0,0,0.81) 0%, rgba(28,27,28,0.81) 0%, rgba(0,0,0,0.76) 29%, rgba(0,0,0,0.73) 45%, rgba(0,0,0,0.69) 68%, rgba(0,0,0,0.63) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+}
+.jumbotron-overlay{
+   padding-top: 3.5rem !important;
+   padding-bottom: 3.5rem !important;
+   margin-top: 5rem;
+}
+.jumbotron .overlay{
+   padding: 2rem 3.5rem;
+}
+
+.overlay{
+   transition: .5s all;
+}
+
+.overlay:hover{
+   background-color: transparent;
+}
+.wrapper{
+   width: 50%;
+}
+
+h3.jumbo-title{
+   position: relative;
+}
+
+h3.jumbo-title.text-white:after {
+   content: "";
+   height: 2px;
+   width: 0%;
+   background: #f9f9f9;
+   position: absolute;
+   left: 0;
+   bottom: -6px;
+   right: 0;
+   transition: .5s all;
+}
+
+h3.jumbo-title.text-white:hover::after{
+   width: 60%;
+   background: orangered;
+}
+
+p.jumbo-text{
+   font-size: 1rem;
+}
+
+.jumbotron-naration h4,
+.jumbotron-naration p{
+   color: white;
+}
+
+.jumbotron-naration .jumbotron-naration-row{
+   margin-bottom: 0xp !important;
+}
+
+.card-img{
+   padding: 0px;
+}
+
+.card{
+   border: 0px;
+}
+
+.text-box{
+   width: 80%;
+}
+
+.img-1{
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat; 
+   height: 300px;     
+}
