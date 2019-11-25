@@ -92,6 +92,7 @@
 }
 
 
+/* Small screen styling */
 
 @media screen and (max-width: 991px){
    .wrapper{
@@ -106,8 +107,16 @@
       margin: 0 auto;
       margin-top: .5rem;
   }
+  .jumbotron .overlay{
+   padding: 2rem 1.5rem !important;
+   }
+   .jumbotron .overlay .wrapper{
+      text-align: center;
+   }
 }
 
+
+/* Generic Styling */
 .jumbotron{
    padding: 0px !important;
 }
@@ -194,6 +203,11 @@ p.jumbo-text{
    height: 300px;     
 }
 
+.jumbotron{
+   padding: 0px !important;
+   margin-bottom: 0rem;
+}
+
 .jumbotron-naration-row h4::after {
    content: "";
    left: 0;
@@ -208,4 +222,8 @@ p.jumbo-text{
 
 .jumbotron-naration-row h4 {
    position: relative;
+}
+
+.cursor-pointer{
+   cursor: pointer;
 }
