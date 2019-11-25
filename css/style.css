@@ -1,9 +1,11 @@
 @media screen and (min-width: 992px){
 
-   .desktop-nav{
+   .collapse{
       display: flex;
-      justify-content: flex-end;
    }
+   ul.navbar-nav.center-nav {
+      margin: 0 auto;
+  }
    .custom-jumbotron{
     background-size: cover;
     background-position: center center;
@@ -95,6 +97,14 @@
 /* Small screen styling */
 
 @media screen and (max-width: 991px){
+
+   ul.navbar-nav.center-nav li.nav-item{
+      transition: .5s all;
+   }
+   ul.navbar-nav.center-nav li.nav-item:hover,
+   ul.navbar-nav.center-nav li.nav-item:focus{
+      transform: translate(40px, 0);
+   }
    .wrapper{
       width: 80% !important;
    }
@@ -137,6 +147,31 @@
 }
 .jumbotron .overlay{
    padding: 2rem 3.5rem;
+}
+
+.jumbotron{
+   padding: 0px !important;
+   margin-bottom: 0rem;
+}
+
+.jumbotron-naration-row h4::after {
+   content: "";
+   left: 0;
+   right: 0;
+   height: 2px;
+   background-color: white;
+   position: absolute;
+   bottom: -6px;
+   width: 50%;
+   margin: 0 auto;
+}
+
+.jumbotron-naration-row h4 {
+   position: relative;
+}
+
+.cursor-pointer{
+   cursor: pointer;
 }
 
 .overlay{
@@ -203,27 +238,3 @@ p.jumbo-text{
    height: 300px;     
 }
 
-.jumbotron{
-   padding: 0px !important;
-   margin-bottom: 0rem;
-}
-
-.jumbotron-naration-row h4::after {
-   content: "";
-   left: 0;
-   right: 0;
-   height: 2px;
-   background-color: white;
-   position: absolute;
-   bottom: -6px;
-   width: 50%;
-   margin: 0 auto;
-}
-
-.jumbotron-naration-row h4 {
-   position: relative;
-}
-
-.cursor-pointer{
-   cursor: pointer;
-}
